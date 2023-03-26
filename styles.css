@@ -41,6 +41,10 @@ main {
     gap: 3rem;
 }
 
+.navMenu a {
+    color: var(--very-dark-blue);
+}
+
 ul{
     list-style: none;
 }
