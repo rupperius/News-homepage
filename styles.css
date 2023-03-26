@@ -45,6 +45,10 @@ main {
     color: var(--very-dark-blue);
 }
 
+.navMenu a:hover{
+    color: var(--soft-red);
+}
+
 ul{
     list-style: none;
 }
