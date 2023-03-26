@@ -32,20 +32,14 @@ nav {
 }
 
 main {
-    max-width: 1400px;
     height: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    
 }
 
 .navMenu{
     display: flex;
-    align-items: center;
     color: var(--dark-grayish-blue);
     gap: 3rem;
 }
-
 
 ul{
     list-style: none;
@@ -55,7 +49,6 @@ a:link {
     text-decoration-line: none;
 }
 
-
 .cookieMenu{
     display: none;
 }
@@ -64,7 +57,7 @@ a:link {
     display: none;
 }
 
-.article {
+article {
     margin-left: auto;
     margin-right: auto;
     display: grid;
@@ -80,7 +73,6 @@ a:link {
     "popular popular popular";
 }
 
-
 .featured{
     grid-area: featured;
 }
@@ -93,8 +85,6 @@ a:link {
 .featured-text{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
-    justify-content: center;
 }
 
 .feature{
@@ -111,7 +101,6 @@ button {
     text-transform: uppercase;
     letter-spacing: 2px;
     border: none;
-    padding: 1rem 2rem;
     margin-top: 1.5rem;
 }
 
@@ -123,10 +112,7 @@ button:active {
 .new-container{
     grid-area: new-container;
     background-color: var(--very-dark-blue);
-    width: 100%;
-    height: 100%;
     padding: 2rem 1rem;
-    
 }
 
 .new {
@@ -136,7 +122,6 @@ button:active {
 .news-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     gap: 3rem;
     padding: 1rem 1rem;
 }
@@ -163,7 +148,6 @@ button:active {
 
 .popular-box{
     display: flex;
-    flex-direction: row;
     gap: 2rem
 }
 
@@ -220,7 +204,11 @@ span {
 p{
     font-size: 15px;
     line-height: 2rem;
-    color: var(--grayish-blue)
+    color: var(--dark-grayish-blue)
+}
+
+.news p {
+    color: var(--grayish-blue);
 }
 
 .attribution { font-size: 11px; text-align: center; }
